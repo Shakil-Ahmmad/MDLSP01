@@ -1,0 +1,88 @@
+﻿@model Mass_Data_Education.Models.Institute
+
+
+@{
+    var Title = "Institute";
+    ViewBag.Title = Title;
+}
+
+<div class="page-header">
+    <div class="page-header-content">
+        <div class="page-title" style="padding-top:10px; padding-bottom:15px">
+            <h4><span class="text-semibold">@Title</span></h4>
+            <a class="heading-elements-toggle"><i class="icon-more"></i></a>
+        </div>
+    </div>
+
+    <div class="breadcrumb-line breadcrumb-line-component">
+        <a class="breadcrumb-elements-toggle"><i class="icon-menu-open"></i></a>
+        <ul class="breadcrumb">
+            <li><a href="@Url.Action("Index", "Home")"><i class="icon-home2 position-left"></i> Dashboard</a></li>
+            <li class="active">@Title</li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="content">
+    <div class="panel panel-flat">
+        <div class="panel-heading">
+            <h5 class="panel-title">@Title</h5>
+
+            <div class="heading-elements">
+                <ul class="icons-list">
+                    <li><a href="@Url.Action("Edit", new { Id = Model.Id })" class="btn btn-default btn-raised legitRipple">Update Institute Info <i class="icon-make-group position-right"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="panel-body">
+            <div class="col-md-12">
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+
+                    <div class="form-horizontal">
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                        <div class="col-md-8">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Address, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.Phone, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Phone, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <br />
+                            <img src="~/Images/InstituteLogo/@Model.Logo" style="max-width:300px" alt="Image not found" onerror="this.onerror = null; this.src = 'https://place-hold.it/300x200?text=Institute%20Logo&fontsize=25'" />
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

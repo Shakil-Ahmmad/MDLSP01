@@ -1,0 +1,128 @@
+﻿@model Mass_Data_Education.Models.ViewModel.ClassSubjectVM
+
+@{
+    var Title = "Update Subject";
+    ViewBag.Title = Title;
+}
+
+<div class="page-header">
+    <div class="page-header-content">
+        <div class="page-title" style="padding-top:10px; padding-bottom:15px">
+            <h4><span class="text-semibold">@Title</span></h4>
+            <a class="heading-elements-toggle"><i class="icon-more"></i></a>
+        </div>
+
+    </div>
+
+    <div class="breadcrumb-line breadcrumb-line-component">
+        <a class="breadcrumb-elements-toggle"><i class="icon-menu-open"></i></a>
+        <ul class="breadcrumb">
+            <li><a href="@Url.Action("Index", "Home")"><i class="icon-home2 position-left"></i> Dashboard</a></li>
+            <li><a href="@Url.Action("Index")">Subjects</a></li>
+            <li class="active">@Title</li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="content">
+    <div class="panel panel-flat">
+        <div class="panel-heading">
+            <h5 class="panel-title">Update Subject</h5>
+        </div>
+        <div class="panel-body">
+            <div class="col-md-12">
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+
+                    <div class="form-horizontal">
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        @Html.HiddenFor(model => model.Id)
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.ClassId, null, htmlAttributes: new { @class = "control-label col-md-3" })
+                                <div class="col-md-9">
+                                    @Html.DropDownList("ClassId", null, htmlAttributes: new { @class = "select" })
+                                    @Html.ValidationMessageFor(model => model.ClassId, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.SubjectNames, htmlAttributes: new { @class = "control-label col-md-3" })
+                                <div class="col-md-9">
+                                    @Html.EditorFor(model => model.SubjectNames, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.SubjectNames, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <table class="table" id="MyTable">
+                                <thead>
+                                    <tr>
+                                        @*<th style="display:none"></th>*@
+                                        <th width="40%">Book Name</th>
+                                        <th>Author</th>
+                                        <th width="10%">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="books-body">
+                                    @{int i = 0;}
+                                    @foreach (var item in Model.SubjectBooks)
+                                    {
+                                        <tr class="book">
+                                            @*<td style="display:none"></td>*@
+                                            <td><input type="text" name="SubjectBooks[@i].Name" value="@item.Name" class="form-control BookName" placeholder="Book Name" /></td>
+                                            <td><input type="text" name="SubjectBooks[@i].Writer" value="@item.Writer" class="form-control BookAuthor" placeholder="Author" /></td>
+                                            <td><button type="button" class="btn border-warning text-danger-600 btn-flat btn-icon legitRipple del-book"><i class="icon-trash"></i></button></td>
+                                        </tr>
+                                        i++;
+                                    }
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="3"><button id="add-book" type="button" class="btn btn-default btn-raised legitRipple">Add New <i class="icon-plus2 position-right"></i></button></td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div><div class="col-md-12 text-center">
+                            <div class="col-md-offset-3 col-md-3" style="padding-bottom:5px">
+                                <button type="submit" class="btn btn-default btn-raised legitRipple">Save Data <i class="icon-make-group position-right"></i></button>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="@Url.Action("Index")" class="btn btn-default btn-raised legitRipple">Go Back<i class="icon-arrow-left15 position-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#add-book").click(function () {
+            var rowCount = $('.book').length;
+            var rowContent = '<tr class="book"><td><input type="text" name="SubjectBooks[' + rowCount + '].Name" class="form-control BookName" placeholder="Book Name" /></td><td><input type="text" name="SubjectBooks[' + rowCount + '].Writer" class = "form-control BookAuthor" placeholder = "Author" /></td><td><button type="button" class="btn border-warning text-danger-600 btn-flat btn-icon legitRipple del-book"><i class="icon-trash"></i></button></td></tr>';
+            $('#books-body').append(rowContent);
+        });
+
+        $('#MyTable').on('click', '.del-book', function (event) {
+            if (confirm("Are You sure want to delete?")) {
+                $(this).parent().parent().remove();
+
+                var i = 0;
+                $('.BookName').each(function (index) {
+                    $(this).attr('name', 'SubjectBooks[' + i + '].Name')
+                    i++;
+                })
+
+                i = 0;
+                $('.BookAuthor').each(function (index) {
+                    $(this).attr('name', 'SubjectBooks[' + i + '].Writer')
+                    i++;
+                })
+            }
+        });
+    });
+</script>

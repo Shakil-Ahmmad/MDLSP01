@@ -1,0 +1,65 @@
+﻿@model Mass_Data_Education.Models.ViewModel.ClassSubjectVM
+@{
+    var Title = "Delete Class";
+    ViewBag.Title = Title;
+}
+<div class="page-header">
+    <div class="page-header-content">
+        <div class="page-title" style="padding-top:10px; padding-bottom:15px">
+            <h4><span class="text-semibold">@Title</span></h4>
+            <a class="heading-elements-toggle"><i class="icon-more"></i></a>
+        </div>
+    </div>
+    <div class="breadcrumb-line breadcrumb-line-component">
+        <a class="breadcrumb-elements-toggle"><i class="icon-menu-open"></i></a>
+        <ul class="breadcrumb">
+            <li><a href="@Url.Action("Index", "Home")"><i class="icon-home2 position-left"></i> Dashboard</a></li>
+            <li><a href="@Url.Action("Index")">Classes</a></li>
+            <li class="active">@Title</li>
+        </ul>
+    </div>
+</div>
+<div class="content">
+    <div class="panel panel-flat">
+        <div class="panel-body">
+            <div class="col-md-12 form-horizontal">
+                <h5>Are You Sure You Want to Delete This?</h5>
+                <div class="col-md-6">
+                    <div style="overflow:auto">
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td><b>Class</b></td>
+                                    <td>@Html.DisplayFor(model => model.ClassName)</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Subject</b></td>
+                                    <td>@Html.DisplayFor(model => model.SubjectNames)</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Books</b></td>
+                                    <td><span style="white-space: pre-wrap">@Html.DisplayFor(model => model.Books)</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="text-center col-md-12">
+                        <div class="col-md-8 text-center">
+                            <br />
+                            <div class="col-md-offset-2 col-md-3" style="padding-bottom:5px">
+                                <button type="submit" class="btn btn-default btn-raised legitRipple text-danger-400">Delete <i class="icon-trash position-right text-danger-400"></i></button>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="@Url.Action("Index")" class="btn btn-default btn-raised legitRipple">Go Back<i class="icon-arrow-left15 position-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,342 @@
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\ApplicationInsights.config
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\roslyn\csc.exe
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\roslyn\System.Collections.Immutable.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\roslyn\vbc.exe
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\roslyn\VBCSCompiler.exe
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\roslyn\VBCSCompiler.exe.config
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Mass Data Education.dll.config
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Mass Data Education.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Mass Data Education.pdb
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Antlr3.Runtime.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\EntityFramework.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\EntityFramework.SqlServer.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.AI.Web.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.AI.WindowsServer.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.ApplicationInsights.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.Web.Infrastructure.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Newtonsoft.Json.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\System.Web.Helpers.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\System.Web.Mvc.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\System.Web.Optimization.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\System.Web.Razor.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\System.Web.WebPages.Deployment.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\System.Web.WebPages.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\System.Web.WebPages.Razor.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\WebGrease.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\EntityFramework.xml
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\EntityFramework.SqlServer.xml
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.AI.Web.xml
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.AI.WindowsServer.xml
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.ApplicationInsights.xml
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\System.Web.Helpers.xml
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\System.Web.Mvc.xml
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\System.Web.Optimization.xml
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\System.Web.Razor.xml
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\System.Web.WebPages.xml
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\System.Web.WebPages.Deployment.xml
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\System.Web.WebPages.Razor.xml
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Antlr3.Runtime.pdb
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Newtonsoft.Json.xml
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\obj\Debug\Mass Data Education.dll
+c:\users\hasbu\documents\visual studio 2015\Projects\Mass Data Education\Mass Data Education\obj\Debug\Mass Data Education.pdb
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\ApplicationInsights.config
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\roslyn\csc.exe
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\roslyn\System.Collections.Immutable.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\roslyn\System.Reflection.Metadata.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\roslyn\vbc.exe
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\roslyn\VBCSCompiler.exe
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\roslyn\VBCSCompiler.exe.config
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\Mass Data Education.dll.config
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\Mass Data Education.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\Mass Data Education.pdb
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\Antlr3.Runtime.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\EntityFramework.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\EntityFramework.SqlServer.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\Microsoft.AI.Agent.Intercept.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\Microsoft.AI.DependencyCollector.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\Microsoft.AI.PerfCounterCollector.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\Microsoft.AI.ServerTelemetryChannel.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\Microsoft.AI.Web.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\Microsoft.AI.WindowsServer.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\Microsoft.ApplicationInsights.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\Microsoft.Web.Infrastructure.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\Newtonsoft.Json.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\System.Web.Helpers.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\System.Web.Mvc.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\System.Web.Optimization.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\System.Web.Razor.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\System.Web.WebPages.Deployment.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\System.Web.WebPages.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\System.Web.WebPages.Razor.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\WebGrease.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\EntityFramework.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\EntityFramework.SqlServer.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\Microsoft.AI.DependencyCollector.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\Microsoft.AI.ServerTelemetryChannel.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\Microsoft.AI.Web.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\Microsoft.AI.WindowsServer.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\Microsoft.ApplicationInsights.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\System.Web.Helpers.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\System.Web.Mvc.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\System.Web.Optimization.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\System.Web.Razor.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\System.Web.WebPages.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\System.Web.WebPages.Deployment.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\System.Web.WebPages.Razor.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\Antlr3.Runtime.pdb
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\bin\Newtonsoft.Json.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\obj\Debug\Mass Data Education.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\obj\Debug\Mass Data Education.pdb
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education 2018-7-19\Mass Data Education\obj\Debug\Mass Data Education.csprojResolveAssemblyReference.cache
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\obj\Debug\Mass Data Education.csprojResolveAssemblyReference.cache
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\obj\Debug\Mass Data Education.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\obj\Debug\Mass Data Education.pdb
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\ApplicationInsights.config
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\roslyn\csc.exe
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\roslyn\vbc.exe
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\roslyn\VBCSCompiler.exe
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\Mass Data Education.dll.config
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\Mass Data Education.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\Mass Data Education.pdb
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\Antlr3.Runtime.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\EntityFramework.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\EntityFramework.SqlServer.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\Microsoft.AI.Web.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\Microsoft.ApplicationInsights.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\Newtonsoft.Json.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\System.Web.Helpers.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\System.Web.Mvc.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\System.Web.Optimization.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\System.Web.Razor.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\System.Web.WebPages.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\System.Web.WebPages.Razor.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\WebGrease.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\EntityFramework.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\EntityFramework.SqlServer.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\Microsoft.AI.Web.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\Microsoft.ApplicationInsights.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\System.Web.Helpers.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\System.Web.Mvc.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\System.Web.Optimization.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\System.Web.Razor.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\System.Web.WebPages.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\System.Web.WebPages.Razor.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\Antlr3.Runtime.pdb
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass-Data-Education-master\Mass Data Education\bin\Newtonsoft.Json.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\obj\Debug\Mass Data Education.csprojResolveAssemblyReference.cache
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\ApplicationInsights.config
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\roslyn\csc.exe
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\roslyn\vbc.exe
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\roslyn\VBCSCompiler.exe
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Mass Data Education.dll.config
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Mass Data Education.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Mass Data Education.pdb
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Antlr3.Runtime.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\EntityFramework.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\EntityFramework.SqlServer.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.AI.Web.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Newtonsoft.Json.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\System.Web.Helpers.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\System.Web.Mvc.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\System.Web.Optimization.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\System.Web.Razor.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\System.Web.WebPages.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\System.Web.WebPages.Razor.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\WebGrease.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\EntityFramework.xml
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\EntityFramework.SqlServer.xml
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.AI.Web.xml
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\System.Web.Helpers.xml
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\System.Web.Mvc.xml
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\System.Web.Optimization.xml
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\System.Web.Razor.xml
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\System.Web.WebPages.xml
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\System.Web.WebPages.Razor.xml
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Antlr3.Runtime.pdb
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\bin\Newtonsoft.Json.xml
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\obj\Debug\Mass Data Education.csprojResolveAssemblyReference.cache
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\obj\Debug\Mass Data Education.dll
+C:\Users\Doeltech007\Documents\Visual Studio 2015\Projects\Mass Data Education\Mass Data Education\obj\Debug\Mass Data Education.pdb
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\ApplicationInsights.config
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\roslyn\csc.exe
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\roslyn\vbc.exe
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\roslyn\VBCSCompiler.exe
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\Mass Data Education.dll.config
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\Mass Data Education.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\Mass Data Education.pdb
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\Antlr3.Runtime.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\EntityFramework.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\EntityFramework.SqlServer.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\Microsoft.AI.Web.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\Microsoft.ApplicationInsights.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\Newtonsoft.Json.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\System.Web.Helpers.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\System.Web.Mvc.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\System.Web.Optimization.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\System.Web.Razor.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\System.Web.WebPages.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\System.Web.WebPages.Razor.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\WebGrease.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\EntityFramework.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\EntityFramework.SqlServer.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\Microsoft.AI.Web.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\Microsoft.ApplicationInsights.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\System.Web.Helpers.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\System.Web.Mvc.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\System.Web.Optimization.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\System.Web.Razor.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\System.Web.WebPages.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\System.Web.WebPages.Razor.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\Antlr3.Runtime.pdb
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\bin\Newtonsoft.Json.xml
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\obj\Debug\Mass Data Education.csprojResolveAssemblyReference.cache
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\obj\Debug\Mass Data Education.dll
+C:\Users\hasbu\Documents\Visual Studio 2015\Projects\MDL001\Mass Data Education\obj\Debug\Mass Data Education.pdb
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\ApplicationInsights.config
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\roslyn\csc.exe
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\roslyn\System.Collections.Immutable.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\roslyn\System.Reflection.Metadata.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\roslyn\vbc.exe
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\roslyn\VBCSCompiler.exe
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\roslyn\VBCSCompiler.exe.config
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\Mass Data Education.dll.config
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\Mass Data Education.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\Mass Data Education.pdb
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\Antlr3.Runtime.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\EntityFramework.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\EntityFramework.SqlServer.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\Microsoft.AI.Agent.Intercept.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\Microsoft.AI.DependencyCollector.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\Microsoft.AI.PerfCounterCollector.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\Microsoft.AI.ServerTelemetryChannel.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\Microsoft.AI.Web.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\Microsoft.AI.WindowsServer.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\Microsoft.ApplicationInsights.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\Microsoft.Web.Infrastructure.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\Newtonsoft.Json.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\System.Web.Helpers.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\System.Web.Mvc.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\System.Web.Optimization.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\System.Web.Razor.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\System.Web.WebPages.Deployment.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\System.Web.WebPages.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\System.Web.WebPages.Razor.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\WebGrease.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\EntityFramework.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\EntityFramework.SqlServer.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\Microsoft.AI.DependencyCollector.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\Microsoft.AI.ServerTelemetryChannel.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\Microsoft.AI.Web.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\Microsoft.AI.WindowsServer.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\Microsoft.ApplicationInsights.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\System.Web.Helpers.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\System.Web.Mvc.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\System.Web.Optimization.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\System.Web.Razor.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\System.Web.WebPages.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\System.Web.WebPages.Deployment.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\System.Web.WebPages.Razor.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\Antlr3.Runtime.pdb
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\bin\Newtonsoft.Json.xml
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\obj\Debug\Mass Data Education.csprojResolveAssemblyReference.cache
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\obj\Debug\Mass Data Education.dll
+H:\Work Docoment\Mass Data\Education Automation\MDE\Mass Data Education\Mass Data Education\obj\Debug\Mass Data Education.pdb

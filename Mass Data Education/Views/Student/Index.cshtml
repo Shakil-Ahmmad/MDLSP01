@@ -1,0 +1,177 @@
+﻿@model IEnumerable<Mass_Data_Education.Models.Person>
+
+<script type="text/javascript" src="~/assets/js/plugins/tables/datatables/extensions/jszip/jszip.min.js"></script>
+<script type="text/javascript" src="~/assets/js/plugins/tables/datatables/extensions/pdfmake/pdfmake.min.js"></script>
+<script type="text/javascript" src="~/assets/js/plugins/tables/datatables/extensions/pdfmake/vfs_fonts.min.js"></script>
+<script type="text/javascript" src="~/assets/js/plugins/tables/datatables/extensions/buttons.min.js"></script>
+<script type="text/javascript" src="~/assets/js/pages/datatables_extension_buttons_html5.js"></script>
+
+@{
+    var Title = "Persons";
+    ViewBag.Title = Title;
+}
+
+
+
+<div class="page-header">
+    <div class="page-header-content">
+        <div class="page-title" style="padding-top:10px; padding-bottom:15px">
+            <h4><span class="text-semibold">@Title</span></h4>
+            <a class="heading-elements-toggle"><i class="icon-more"></i></a>
+        </div>
+
+    </div>
+
+    <div class="breadcrumb-line breadcrumb-line-component">
+        <a class="breadcrumb-elements-toggle"><i class="icon-menu-open"></i></a>
+        <ul class="breadcrumb">
+            <li><a href="@Url.Action("Index", "Home")"><i class="icon-home2 position-left"></i> Dashboard</a></li>
+            <li class="active">@Title</li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="content">
+
+
+    <div class="panel panel-flat">
+        <div class="panel-heading">
+            <h5 class="panel-title">@Title List</h5>
+            <div class="heading-elements">
+                <ul class="icons-list">
+                    <li><a href="@Url.Action("Create")" class="btn btn-default btn-raised legitRipple">Add New <i class="icon-make-group position-right"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="panel-body">
+            <div class="col-md-12">
+                <div style="overflow:auto">
+                    <table class="table datatable-button-html5-basic">
+                        <thead>
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Name)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Type)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Mobile)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Email)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.FathersName)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.MothersName)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.GurdiansNumber)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Image)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Date)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Password)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Deleted)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.BloodGroup.Name)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Designation.Name)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Gender.Name)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Institute1.PersonID)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Religion.Name)
+                                </th>
+                                <th style="min-width:108px">Action</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Name)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Type)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Mobile)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Email)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.FathersName)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.MothersName)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.GurdiansNumber)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Image)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Date)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Password)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Deleted)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.BloodGroup.Name)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Designation.Name)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Gender.Name)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Institute1.PersonID)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Religion.Name)
+                                    </td>
+
+
+                                    <td>
+                                        <a href="@Url.Action("Edit", new { id = item.Id })" title="Update" class="text-teal-400"><i class="icon-pencil7"></i></a> &nbsp;
+                                        <a href="@Url.Action("Details", new { id = item.Id })" title="Details" class="text-green-400"><i class="icon-file-empty"></i></a> &nbsp;
+                                        <a href="@Url.Action("Delete", new { id = item.Id })" title="Delete" class="text-warning-400"><i class="icon-trash-alt"></i></a>
+                                    </td>
+
+                                </tr>
+                            }
+                        </tbody>
+
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
