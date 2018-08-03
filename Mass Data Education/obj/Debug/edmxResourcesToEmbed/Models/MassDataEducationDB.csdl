@@ -55,16 +55,18 @@
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="InstituteID" Type="Int32" Nullable="false" />
+    <Property Name="HasGroup" Type="Boolean" Nullable="false" />
     <Property Name="Deleted" Type="Boolean" Nullable="false" />
     <NavigationProperty Name="Class1" Relationship="Self.FK_Class_Class" FromRole="Class" ToRole="Class1" />
     <NavigationProperty Name="Class2" Relationship="Self.FK_Class_Class" FromRole="Class1" ToRole="Class" />
     <NavigationProperty Name="Institute" Relationship="Self.FK_Class_Institute" FromRole="Class" ToRole="Institute" />
+    <NavigationProperty Name="ClassExams" Relationship="Self.FK_ClassExams_Class" FromRole="Class" ToRole="ClassExams" />
     <NavigationProperty Name="ClassSubject" Relationship="Self.FK_ClassSubject_Class" FromRole="Class" ToRole="ClassSubject" />
     <NavigationProperty Name="Result" Relationship="Self.FK_Result_Class" FromRole="Class" ToRole="Result" />
+    <NavigationProperty Name="Result1" Relationship="Self.FK_Result_ClassExams" FromRole="Class" ToRole="Result" />
     <NavigationProperty Name="Section" Relationship="Self.FK_Section_Class" FromRole="Class" ToRole="Section" />
     <NavigationProperty Name="StudentAttendance" Relationship="Self.FK_StudentAttendance_Class" FromRole="Class" ToRole="StudentAttendance" />
     <NavigationProperty Name="StudentClass" Relationship="Self.FK_StudentClass_Class" FromRole="Class" ToRole="StudentClass" />
-    <NavigationProperty Name="ClassExams" Relationship="MassDataEducationModel.FK_ClassExams_Class" FromRole="Class" ToRole="ClassExams" />
   </EntityType>
   <EntityType Name="ClassExams">
     <Key>
@@ -76,10 +78,9 @@
     <Property Name="ExamNamesID" Type="Int32" Nullable="false" />
     <Property Name="TotalMarks" Type="Int32" Nullable="false" />
     <Property Name="Deleted" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Class" Relationship="Self.FK_ClassExams_Class" FromRole="ClassExams" ToRole="Class" />
+    <NavigationProperty Name="ExamNames" Relationship="Self.FK_ClassExams_ExamNames" FromRole="ClassExams" ToRole="ExamNames" />
     <NavigationProperty Name="Institute" Relationship="Self.FK_ClassExams_Institute" FromRole="ClassExams" ToRole="Institute" />
-    <NavigationProperty Name="Result" Relationship="Self.FK_Result_ClassExams" FromRole="ClassExams" ToRole="Result" />
-    <NavigationProperty Name="ExamNames" Relationship="MassDataEducationModel.FK_dbo_ClassExamsModel_dbo_ExamNamesModel_ExamNamesID1" FromRole="ClassExams" ToRole="ExamNames" />
-    <NavigationProperty Name="Class" Relationship="MassDataEducationModel.FK_ClassExams_Class" FromRole="ClassExams" ToRole="Class" />
   </EntityType>
   <EntityType Name="ClassSubject">
     <Key>
@@ -89,8 +90,10 @@
     <Property Name="InstituteID" Type="Int32" Nullable="false" />
     <Property Name="ClassId" Type="Int32" Nullable="false" />
     <Property Name="SubjectNames" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="GroupID" Type="Int32" />
     <Property Name="Deleted" Type="Boolean" Nullable="false" />
     <NavigationProperty Name="Class" Relationship="Self.FK_ClassSubject_Class" FromRole="ClassSubject" ToRole="Class" />
+    <NavigationProperty Name="Group" Relationship="Self.FK_ClassSubject_Group" FromRole="ClassSubject" ToRole="Group" />
     <NavigationProperty Name="Institute" Relationship="Self.FK_ClassSubject_Institute" FromRole="ClassSubject" ToRole="Institute" />
     <NavigationProperty Name="Result" Relationship="Self.FK_Result_ClassSubject" FromRole="ClassSubject" ToRole="Result" />
     <NavigationProperty Name="SubjectBook" Relationship="Self.FK_SubjectBook_ClassSubject" FromRole="ClassSubject" ToRole="SubjectBook" />
@@ -111,8 +114,10 @@
     </Key>
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="InstituteID" Type="Int32" Nullable="false" />
     <Property Name="Deleted" Type="Boolean" Nullable="false" />
-    <NavigationProperty Name="ClassExams" Relationship="MassDataEducationModel.FK_dbo_ClassExamsModel_dbo_ExamNamesModel_ExamNamesID1" FromRole="ExamNames" ToRole="ClassExams" />
+    <NavigationProperty Name="ClassExams" Relationship="Self.FK_ClassExams_ExamNames" FromRole="ExamNames" ToRole="ClassExams" />
+    <NavigationProperty Name="Institute" Relationship="Self.FK_ExamNames_Institute" FromRole="ExamNames" ToRole="Institute" />
   </EntityType>
   <EntityType Name="Gender">
     <Key>
@@ -122,6 +127,15 @@
     <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="Deleted" Type="Boolean" Nullable="false" />
     <NavigationProperty Name="Person" Relationship="Self.FK_Person_Gender" FromRole="Gender" ToRole="Person" />
+  </EntityType>
+  <EntityType Name="Group">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Deleted" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="ClassSubject" Relationship="Self.FK_ClassSubject_Group" FromRole="Group" ToRole="ClassSubject" />
   </EntityType>
   <EntityType Name="Institute">
     <Key>
@@ -139,9 +153,12 @@
     <NavigationProperty Name="Class" Relationship="Self.FK_Class_Institute" FromRole="Institute" ToRole="Class" />
     <NavigationProperty Name="ClassExams" Relationship="Self.FK_ClassExams_Institute" FromRole="Institute" ToRole="ClassExams" />
     <NavigationProperty Name="ClassSubject" Relationship="Self.FK_ClassSubject_Institute" FromRole="Institute" ToRole="ClassSubject" />
+    <NavigationProperty Name="ExamNames" Relationship="Self.FK_ExamNames_Institute" FromRole="Institute" ToRole="ExamNames" />
     <NavigationProperty Name="Person" Relationship="Self.FK_Institute_Person" FromRole="Institute" ToRole="Person" />
     <NavigationProperty Name="Person1" Relationship="Self.FK_Person_Institute" FromRole="Institute" ToRole="Person" />
     <NavigationProperty Name="Result" Relationship="Self.FK_Result_Institute" FromRole="Institute" ToRole="Result" />
+    <NavigationProperty Name="Section" Relationship="Self.FK_Section_Institute" FromRole="Institute" ToRole="Section" />
+    <NavigationProperty Name="StudentClass" Relationship="Self.FK_StudentClass_Institute" FromRole="Institute" ToRole="StudentClass" />
     <NavigationProperty Name="TeacherClassSubject" Relationship="Self.FK_TeacherClassSubject_Institute" FromRole="Institute" ToRole="TeacherClassSubject" />
   </EntityType>
   <EntityType Name="LogData">
@@ -235,7 +252,7 @@
     <Property Name="Grade" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="Deleted" Type="Boolean" Nullable="false" />
     <NavigationProperty Name="Class" Relationship="Self.FK_Result_Class" FromRole="Result" ToRole="Class" />
-    <NavigationProperty Name="ClassExams" Relationship="Self.FK_Result_ClassExams" FromRole="Result" ToRole="ClassExams" />
+    <NavigationProperty Name="Class1" Relationship="Self.FK_Result_ClassExams" FromRole="Result" ToRole="Class" />
     <NavigationProperty Name="ClassSubject" Relationship="Self.FK_Result_ClassSubject" FromRole="Result" ToRole="ClassSubject" />
     <NavigationProperty Name="Institute" Relationship="Self.FK_Result_Institute" FromRole="Result" ToRole="Institute" />
     <NavigationProperty Name="Person" Relationship="Self.FK_Result_Person" FromRole="Result" ToRole="Person" />
@@ -247,9 +264,12 @@
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Name" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="ClassID" Type="Int32" Nullable="false" />
+    <Property Name="StudentLimit" Type="Int32" Nullable="false" />
+    <Property Name="InstituteID" Type="Int32" Nullable="false" />
     <Property Name="Deleted" Type="Boolean" Nullable="false" />
     <NavigationProperty Name="Class" Relationship="Self.FK_Section_Class" FromRole="Section" ToRole="Class" />
-    <Property Name="StudentLimit" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Institute" Relationship="Self.FK_Section_Institute" FromRole="Section" ToRole="Institute" />
+    <NavigationProperty Name="StudentClass" Relationship="Self.FK_StudentClass_Section" FromRole="Section" ToRole="StudentClass" />
   </EntityType>
   <EntityType Name="StudentAttendance">
     <Key>
@@ -273,11 +293,15 @@
     <Property Name="Roll" Type="Int32" Nullable="false" />
     <Property Name="ClassFee" Type="Int32" Nullable="false" />
     <Property Name="ClassID" Type="Int32" Nullable="false" />
-    <Property Name="Year" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="SectionID" Type="Int32" Nullable="false" />
+    <Property Name="InstituteID" Type="Int32" Nullable="false" />
+    <Property Name="Year" Type="Int32" Nullable="false" />
     <Property Name="IsActive" Type="Boolean" Nullable="false" />
     <Property Name="Deleted" Type="Boolean" Nullable="false" />
     <NavigationProperty Name="Class" Relationship="Self.FK_StudentClass_Class" FromRole="StudentClass" ToRole="Class" />
+    <NavigationProperty Name="Institute" Relationship="Self.FK_StudentClass_Institute" FromRole="StudentClass" ToRole="Institute" />
     <NavigationProperty Name="Person" Relationship="Self.FK_StudentClass_Person" FromRole="StudentClass" ToRole="Person" />
+    <NavigationProperty Name="Section" Relationship="Self.FK_StudentClass_Section" FromRole="StudentClass" ToRole="Section" />
   </EntityType>
   <EntityType Name="SubjectBook">
     <Key>
@@ -407,6 +431,18 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Association Name="FK_ClassExams_Class">
+    <End Role="Class" Type="Self.Class" Multiplicity="1" />
+    <End Role="ClassExams" Type="Self.ClassExams" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Class">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ClassExams">
+        <PropertyRef Name="ClassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <Association Name="FK_ClassSubject_Class">
     <End Role="Class" Type="Self.Class" Multiplicity="1" />
     <End Role="ClassSubject" Type="Self.ClassSubject" Multiplicity="*" />
@@ -420,6 +456,18 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_Result_Class">
+    <End Role="Class" Type="Self.Class" Multiplicity="1" />
+    <End Role="Result" Type="Self.Result" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Class">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Result">
+        <PropertyRef Name="ClassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Result_ClassExams">
     <End Role="Class" Type="Self.Class" Multiplicity="1" />
     <End Role="Result" Type="Self.Result" Multiplicity="*" />
     <ReferentialConstraint>
@@ -467,6 +515,18 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Association Name="FK_ClassExams_ExamNames">
+    <End Role="ExamNames" Type="Self.ExamNames" Multiplicity="1" />
+    <End Role="ClassExams" Type="Self.ClassExams" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ExamNames">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ClassExams">
+        <PropertyRef Name="ExamNamesID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <Association Name="FK_ClassExams_Institute">
     <End Role="Institute" Type="Self.Institute" Multiplicity="1" />
     <End Role="ClassExams" Type="Self.ClassExams" Multiplicity="*" />
@@ -479,15 +539,15 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK_Result_ClassExams">
-    <End Role="ClassExams" Type="Self.ClassExams" Multiplicity="1" />
-    <End Role="Result" Type="Self.Result" Multiplicity="*" />
+  <Association Name="FK_ClassSubject_Group">
+    <End Role="Group" Type="Self.Group" Multiplicity="0..1" />
+    <End Role="ClassSubject" Type="Self.ClassSubject" Multiplicity="*" />
     <ReferentialConstraint>
-      <Principal Role="ClassExams">
+      <Principal Role="Group">
         <PropertyRef Name="Id" />
       </Principal>
-      <Dependent Role="Result">
-        <PropertyRef Name="ClassExamsID" />
+      <Dependent Role="ClassSubject">
+        <PropertyRef Name="GroupID" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
@@ -551,6 +611,18 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Association Name="FK_ExamNames_Institute">
+    <End Role="Institute" Type="Self.Institute" Multiplicity="1" />
+    <End Role="ExamNames" Type="Self.ExamNames" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Institute">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ExamNames">
+        <PropertyRef Name="InstituteID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <Association Name="FK_Person_Gender">
     <End Role="Gender" Type="Self.Gender" Multiplicity="1" />
     <End Role="Person" Type="Self.Person" Multiplicity="*" />
@@ -595,6 +667,30 @@
         <PropertyRef Name="Id" />
       </Principal>
       <Dependent Role="Result">
+        <PropertyRef Name="InstituteID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Section_Institute">
+    <End Role="Institute" Type="Self.Institute" Multiplicity="1" />
+    <End Role="Section" Type="Self.Section" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Institute">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Section">
+        <PropertyRef Name="InstituteID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StudentClass_Institute">
+    <End Role="Institute" Type="Self.Institute" Multiplicity="1" />
+    <End Role="StudentClass" Type="Self.StudentClass" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Institute">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="StudentClass">
         <PropertyRef Name="InstituteID" />
       </Dependent>
     </ReferentialConstraint>
@@ -683,6 +779,18 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Association Name="FK_StudentClass_Section">
+    <End Role="Section" Type="Self.Section" Multiplicity="1" />
+    <End Role="StudentClass" Type="Self.StudentClass" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Section">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="StudentClass">
+        <PropertyRef Name="SectionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <EntityContainer Name="MassDataEducationEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Accounting" EntityType="Self.Accounting" />
     <EntitySet Name="Address" EntityType="Self.Address" />
@@ -694,6 +802,7 @@
     <EntitySet Name="Designation" EntityType="Self.Designation" />
     <EntitySet Name="ExamNames" EntityType="Self.ExamNames" />
     <EntitySet Name="Gender" EntityType="Self.Gender" />
+    <EntitySet Name="Group" EntityType="Self.Group" />
     <EntitySet Name="Institute" EntityType="Self.Institute" />
     <EntitySet Name="LogData" EntityType="Self.LogData" />
     <EntitySet Name="PaymantNames" EntityType="Self.PaymantNames" />
@@ -739,11 +848,19 @@
       <End Role="Institute" EntitySet="Institute" />
       <End Role="Class" EntitySet="Class" />
     </AssociationSet>
+    <AssociationSet Name="FK_ClassExams_Class" Association="Self.FK_ClassExams_Class">
+      <End Role="Class" EntitySet="Class" />
+      <End Role="ClassExams" EntitySet="ClassExams" />
+    </AssociationSet>
     <AssociationSet Name="FK_ClassSubject_Class" Association="Self.FK_ClassSubject_Class">
       <End Role="Class" EntitySet="Class" />
       <End Role="ClassSubject" EntitySet="ClassSubject" />
     </AssociationSet>
     <AssociationSet Name="FK_Result_Class" Association="Self.FK_Result_Class">
+      <End Role="Class" EntitySet="Class" />
+      <End Role="Result" EntitySet="Result" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Result_ClassExams" Association="Self.FK_Result_ClassExams">
       <End Role="Class" EntitySet="Class" />
       <End Role="Result" EntitySet="Result" />
     </AssociationSet>
@@ -759,13 +876,17 @@
       <End Role="Class" EntitySet="Class" />
       <End Role="StudentClass" EntitySet="StudentClass" />
     </AssociationSet>
+    <AssociationSet Name="FK_ClassExams_ExamNames" Association="Self.FK_ClassExams_ExamNames">
+      <End Role="ExamNames" EntitySet="ExamNames" />
+      <End Role="ClassExams" EntitySet="ClassExams" />
+    </AssociationSet>
     <AssociationSet Name="FK_ClassExams_Institute" Association="Self.FK_ClassExams_Institute">
       <End Role="Institute" EntitySet="Institute" />
       <End Role="ClassExams" EntitySet="ClassExams" />
     </AssociationSet>
-    <AssociationSet Name="FK_Result_ClassExams" Association="Self.FK_Result_ClassExams">
-      <End Role="ClassExams" EntitySet="ClassExams" />
-      <End Role="Result" EntitySet="Result" />
+    <AssociationSet Name="FK_ClassSubject_Group" Association="Self.FK_ClassSubject_Group">
+      <End Role="Group" EntitySet="Group" />
+      <End Role="ClassSubject" EntitySet="ClassSubject" />
     </AssociationSet>
     <AssociationSet Name="FK_ClassSubject_Institute" Association="Self.FK_ClassSubject_Institute">
       <End Role="Institute" EntitySet="Institute" />
@@ -787,6 +908,10 @@
       <End Role="Designation" EntitySet="Designation" />
       <End Role="Person" EntitySet="Person" />
     </AssociationSet>
+    <AssociationSet Name="FK_ExamNames_Institute" Association="Self.FK_ExamNames_Institute">
+      <End Role="Institute" EntitySet="Institute" />
+      <End Role="ExamNames" EntitySet="ExamNames" />
+    </AssociationSet>
     <AssociationSet Name="FK_Person_Gender" Association="Self.FK_Person_Gender">
       <End Role="Gender" EntitySet="Gender" />
       <End Role="Person" EntitySet="Person" />
@@ -802,6 +927,14 @@
     <AssociationSet Name="FK_Result_Institute" Association="Self.FK_Result_Institute">
       <End Role="Institute" EntitySet="Institute" />
       <End Role="Result" EntitySet="Result" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Section_Institute" Association="Self.FK_Section_Institute">
+      <End Role="Institute" EntitySet="Institute" />
+      <End Role="Section" EntitySet="Section" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StudentClass_Institute" Association="Self.FK_StudentClass_Institute">
+      <End Role="Institute" EntitySet="Institute" />
+      <End Role="StudentClass" EntitySet="StudentClass" />
     </AssociationSet>
     <AssociationSet Name="FK_TeacherClassSubject_Institute" Association="Self.FK_TeacherClassSubject_Institute">
       <End Role="Institute" EntitySet="Institute" />
@@ -831,37 +964,9 @@
       <End Role="Person" EntitySet="Person" />
       <End Role="TeacherClassSubject" EntitySet="TeacherClassSubject" />
     </AssociationSet>
-    <AssociationSet Name="FK_dbo_ClassExamsModel_dbo_ExamNamesModel_ExamNamesID1" Association="MassDataEducationModel.FK_dbo_ClassExamsModel_dbo_ExamNamesModel_ExamNamesID1">
-      <End Role="ExamNames" EntitySet="ExamNames" />
-      <End Role="ClassExams" EntitySet="ClassExams" />
-    </AssociationSet>
-    <AssociationSet Name="FK_ClassExams_Class" Association="MassDataEducationModel.FK_ClassExams_Class">
-      <End Role="Class" EntitySet="Class" />
-      <End Role="ClassExams" EntitySet="ClassExams" />
+    <AssociationSet Name="FK_StudentClass_Section" Association="Self.FK_StudentClass_Section">
+      <End Role="Section" EntitySet="Section" />
+      <End Role="StudentClass" EntitySet="StudentClass" />
     </AssociationSet>
   </EntityContainer>
-  <Association Name="FK_dbo_ClassExamsModel_dbo_ExamNamesModel_ExamNamesID1">
-    <End Type="MassDataEducationModel.ExamNames" Role="ExamNames" Multiplicity="1" />
-    <End Type="MassDataEducationModel.ClassExams" Role="ClassExams" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="ExamNames">
-        <PropertyRef Name="Id" />
-      </Principal>
-      <Dependent Role="ClassExams">
-        <PropertyRef Name="ExamNamesID" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="FK_ClassExams_Class">
-    <End Type="MassDataEducationModel.Class" Role="Class" Multiplicity="1" />
-    <End Type="MassDataEducationModel.ClassExams" Role="ClassExams" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="Class">
-        <PropertyRef Name="Id" />
-      </Principal>
-      <Dependent Role="ClassExams">
-        <PropertyRef Name="ClassID" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
 </Schema>

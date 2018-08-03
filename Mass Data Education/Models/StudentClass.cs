@@ -19,11 +19,15 @@ namespace Mass_Data_Education.Models
         public int Roll { get; set; }
         public int ClassFee { get; set; }
         public int ClassID { get; set; }
-        public System.DateTime Year { get; set; }
+        public int SectionID { get; set; }
+        public int InstituteID { get; set; }
+        public int Year { get; set; }
         public bool IsActive { get; set; }
         public bool Deleted { get; set; }
     
         public virtual Class Class { get; set; }
+        public virtual Institute Institute { get; set; }
         public virtual Person Person { get; set; }
+        public virtual Section Section { get; set; }
     }
 }

@@ -35,6 +35,7 @@ namespace Mass_Data_Education.Models
         public virtual DbSet<Designation> Designation { get; set; }
         public virtual DbSet<ExamNames> ExamNames { get; set; }
         public virtual DbSet<Gender> Gender { get; set; }
+        public virtual DbSet<Group> Group { get; set; }
         public virtual DbSet<Institute> Institute { get; set; }
         public virtual DbSet<LogData> LogData { get; set; }
         public virtual DbSet<PaymantNames> PaymantNames { get; set; }

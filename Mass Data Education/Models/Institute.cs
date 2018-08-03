@@ -21,8 +21,11 @@ namespace Mass_Data_Education.Models
             this.Class = new HashSet<Class>();
             this.ClassExams = new HashSet<ClassExams>();
             this.ClassSubject = new HashSet<ClassSubject>();
+            this.ExamNames = new HashSet<ExamNames>();
             this.Person1 = new HashSet<Person>();
             this.Result = new HashSet<Result>();
+            this.Section = new HashSet<Section>();
+            this.StudentClass = new HashSet<StudentClass>();
             this.TeacherClassSubject = new HashSet<TeacherClassSubject>();
         }
     
@@ -43,11 +46,17 @@ namespace Mass_Data_Education.Models
         public virtual ICollection<ClassExams> ClassExams { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<ClassSubject> ClassSubject { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<ExamNames> ExamNames { get; set; }
         public virtual Person Person { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Person> Person1 { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Result> Result { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Section> Section { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<StudentClass> StudentClass { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<TeacherClassSubject> TeacherClassSubject { get; set; }
     }

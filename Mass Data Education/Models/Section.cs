@@ -14,12 +14,22 @@ namespace Mass_Data_Education.Models
     
     public partial class Section
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public Section()
+        {
+            this.StudentClass = new HashSet<StudentClass>();
+        }
+    
         public int Id { get; set; }
         public string Name { get; set; }
         public int ClassID { get; set; }
-        public bool Deleted { get; set; }
         public int StudentLimit { get; set; }
+        public int InstituteID { get; set; }
+        public bool Deleted { get; set; }
     
         public virtual Class Class { get; set; }
+        public virtual Institute Institute { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<StudentClass> StudentClass { get; set; }
     }
 }

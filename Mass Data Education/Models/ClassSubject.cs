@@ -26,9 +26,11 @@ namespace Mass_Data_Education.Models
         public int InstituteID { get; set; }
         public int ClassId { get; set; }
         public string SubjectNames { get; set; }
+        public Nullable<int> GroupID { get; set; }
         public bool Deleted { get; set; }
     
         public virtual Class Class { get; set; }
+        public virtual Group Group { get; set; }
         public virtual Institute Institute { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Result> Result { get; set; }

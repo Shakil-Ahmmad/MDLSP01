@@ -170,6 +170,7 @@
     <Compile Include="Controllers\DesignationsController.cs" />
     <Compile Include="Controllers\ExamNamesController.cs" />
     <Compile Include="Controllers\GendersController.cs" />
+    <Compile Include="Controllers\GroupsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InstitutesController.cs" />
     <Compile Include="Controllers\PaymantNamesController.cs" />
@@ -220,6 +221,9 @@
       <DependentUpon>MassDataEducationDB.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Gender.cs">
+      <DependentUpon>MassDataEducationDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Group.cs">
       <DependentUpon>MassDataEducationDB.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Institute.cs">
@@ -312,6 +316,7 @@
     <Compile Include="Repository\RepDesignations.cs" />
     <Compile Include="Repository\RepExamNames.cs" />
     <Compile Include="Repository\RepGender.cs" />
+    <Compile Include="Repository\RepGroups.cs" />
     <Compile Include="Repository\RepInstitute.cs" />
     <Compile Include="Repository\RepPaymantNames.cs" />
     <Compile Include="Repository\RepPeople.cs" />
@@ -2931,6 +2936,11 @@
     <Content Include="Views\StudentProfile\Edit.cshtml" />
     <Content Include="Views\StudentProfile\Index.cshtml" />
     <Content Include="Views\Access\Login.cshtml" />
+    <Content Include="Views\Groups\Create.cshtml" />
+    <Content Include="Views\Groups\Delete.cshtml" />
+    <Content Include="Views\Groups\Details.cshtml" />
+    <Content Include="Views\Groups\Edit.cshtml" />
+    <Content Include="Views\Groups\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

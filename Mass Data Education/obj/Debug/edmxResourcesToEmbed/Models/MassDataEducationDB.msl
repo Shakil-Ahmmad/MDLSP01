@@ -52,6 +52,7 @@
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="InstituteID" ColumnName="InstituteID" />
+          <ScalarProperty Name="HasGroup" ColumnName="HasGroup" />
           <ScalarProperty Name="Deleted" ColumnName="Deleted" />
         </MappingFragment>
       </EntityTypeMapping>
@@ -75,6 +76,7 @@
           <ScalarProperty Name="InstituteID" ColumnName="InstituteID" />
           <ScalarProperty Name="ClassId" ColumnName="ClassId" />
           <ScalarProperty Name="SubjectNames" ColumnName="SubjectNames" />
+          <ScalarProperty Name="GroupID" ColumnName="GroupID" />
           <ScalarProperty Name="Deleted" ColumnName="Deleted" />
         </MappingFragment>
       </EntityTypeMapping>
@@ -93,6 +95,7 @@
         <MappingFragment StoreEntitySet="ExamNames">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="InstituteID" ColumnName="InstituteID" />
           <ScalarProperty Name="Deleted" ColumnName="Deleted" />
         </MappingFragment>
       </EntityTypeMapping>
@@ -100,6 +103,15 @@
     <EntitySetMapping Name="Gender">
       <EntityTypeMapping TypeName="MassDataEducationModel.Gender">
         <MappingFragment StoreEntitySet="Gender">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Group">
+      <EntityTypeMapping TypeName="MassDataEducationModel.Group">
+        <MappingFragment StoreEntitySet="Group">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="Deleted" ColumnName="Deleted" />
@@ -204,10 +216,11 @@
     <EntitySetMapping Name="Section">
       <EntityTypeMapping TypeName="MassDataEducationModel.Section">
         <MappingFragment StoreEntitySet="Section">
-          <ScalarProperty Name="StudentLimit" ColumnName="StudentLimit" />
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="ClassID" ColumnName="ClassID" />
+          <ScalarProperty Name="StudentLimit" ColumnName="StudentLimit" />
+          <ScalarProperty Name="InstituteID" ColumnName="InstituteID" />
           <ScalarProperty Name="Deleted" ColumnName="Deleted" />
         </MappingFragment>
       </EntityTypeMapping>
@@ -232,6 +245,8 @@
           <ScalarProperty Name="Roll" ColumnName="Roll" />
           <ScalarProperty Name="ClassFee" ColumnName="ClassFee" />
           <ScalarProperty Name="ClassID" ColumnName="ClassID" />
+          <ScalarProperty Name="SectionID" ColumnName="SectionID" />
+          <ScalarProperty Name="InstituteID" ColumnName="InstituteID" />
           <ScalarProperty Name="Year" ColumnName="Year" />
           <ScalarProperty Name="IsActive" ColumnName="IsActive" />
           <ScalarProperty Name="Deleted" ColumnName="Deleted" />

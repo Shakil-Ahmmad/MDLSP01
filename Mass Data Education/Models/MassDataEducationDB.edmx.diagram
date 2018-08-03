@@ -4,30 +4,31 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="72e886f4176b44d2a3ecd9346cabb5ab" Name="Diagram1">
-        <EntityTypeShape EntityType="MassDataEducationModel.Accounting" Width="1.5" PointX="5.25" PointY="17.875" IsExpanded="true" />
+      <Diagram DiagramId="2b30f415a9964224b017b3fccd9e8803" Name="Diagram1">
+        <EntityTypeShape EntityType="MassDataEducationModel.Accounting" Width="1.5" PointX="5.25" PointY="18.375" IsExpanded="true" />
         <EntityTypeShape EntityType="MassDataEducationModel.Address" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="MassDataEducationModel.Admission" Width="1.5" PointX="7.5" PointY="19.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="MassDataEducationModel.BloodGroup" Width="1.5" PointX="0.75" PointY="18.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="MassDataEducationModel.Class" Width="1.5" PointX="7.5" PointY="23" IsExpanded="true" />
-        <EntityTypeShape EntityType="MassDataEducationModel.ClassExams" Width="1.5" PointX="7.5" PointY="27.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="MassDataEducationModel.ClassSubject" Width="1.5" PointX="9.75" PointY="23.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="MassDataEducationModel.Designation" Width="1.5" PointX="0.75" PointY="15.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="MassDataEducationModel.ExamNames" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="MassDataEducationModel.Gender" Width="1.5" PointX="0.75" PointY="21.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="MassDataEducationModel.Institute" Width="1.5" PointX="5.25" PointY="22.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="MassDataEducationModel.LogData" Width="1.5" PointX="5.25" PointY="27.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="MassDataEducationModel.PaymantNames" Width="1.5" PointX="3" PointY="12.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="MassDataEducationModel.Person" Width="1.5" PointX="3" PointY="16" IsExpanded="true" />
-        <EntityTypeShape EntityType="MassDataEducationModel.ReferencePerson" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="MassDataEducationModel.Religion" Width="1.5" PointX="0.75" PointY="24" IsExpanded="true" />
-        <EntityTypeShape EntityType="MassDataEducationModel.Result" Width="1.5" PointX="15" PointY="22" IsExpanded="true" />
-        <EntityTypeShape EntityType="MassDataEducationModel.Section" Width="1.5" PointX="9.75" PointY="27.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="MassDataEducationModel.StudentAttendance" Width="1.5" PointX="9.75" PointY="19.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="MassDataEducationModel.StudentClass" Width="1.5" PointX="12.75" PointY="19.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="MassDataEducationModel.SubjectBook" Width="1.5" PointX="12" PointY="28.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="MassDataEducationModel.SubjectNames" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="MassDataEducationModel.TeacherClassSubject" Width="1.5" PointX="15" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MassDataEducationModel.Admission" Width="1.5" PointX="7.5" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MassDataEducationModel.BloodGroup" Width="1.5" PointX="0.75" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="MassDataEducationModel.Class" Width="1.5" PointX="7.5" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MassDataEducationModel.ClassExams" Width="1.5" PointX="9.75" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MassDataEducationModel.ClassSubject" Width="1.5" PointX="12.75" PointY="23" IsExpanded="true" />
+        <EntityTypeShape EntityType="MassDataEducationModel.Designation" Width="1.5" PointX="0.75" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MassDataEducationModel.ExamNames" Width="1.5" PointX="7.5" PointY="26.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MassDataEducationModel.Gender" Width="1.5" PointX="0.75" PointY="22" IsExpanded="true" />
+        <EntityTypeShape EntityType="MassDataEducationModel.Group" Width="1.5" PointX="10.5" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MassDataEducationModel.Institute" Width="1.5" PointX="5.25" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MassDataEducationModel.LogData" Width="1.5" PointX="5.25" PointY="29.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MassDataEducationModel.PaymantNames" Width="1.5" PointX="3" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="MassDataEducationModel.Person" Width="1.5" PointX="3" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MassDataEducationModel.ReferencePerson" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MassDataEducationModel.Religion" Width="1.5" PointX="0.75" PointY="24.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MassDataEducationModel.Result" Width="1.5" PointX="15" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MassDataEducationModel.Section" Width="1.5" PointX="9.75" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MassDataEducationModel.StudentAttendance" Width="1.5" PointX="9.75" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MassDataEducationModel.StudentClass" Width="1.5" PointX="12" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MassDataEducationModel.SubjectBook" Width="1.5" PointX="15" PointY="28.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MassDataEducationModel.SubjectNames" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MassDataEducationModel.TeacherClassSubject" Width="1.5" PointX="18" PointY="20.75" IsExpanded="true" />
         <AssociationConnector Association="MassDataEducationModel.FK_Accounting_PaymantNames" ManuallyRouted="false" />
         <AssociationConnector Association="MassDataEducationModel.FK_Accounting_Person" ManuallyRouted="false" />
         <AssociationConnector Association="MassDataEducationModel.FK_Address_Address" ManuallyRouted="false" />
@@ -36,22 +37,28 @@
         <AssociationConnector Association="MassDataEducationModel.FK_Person_BloodGroup" ManuallyRouted="false" />
         <AssociationConnector Association="MassDataEducationModel.FK_Class_Class" ManuallyRouted="false" />
         <AssociationConnector Association="MassDataEducationModel.FK_Class_Institute" ManuallyRouted="false" />
+        <AssociationConnector Association="MassDataEducationModel.FK_ClassExams_Class" ManuallyRouted="false" />
         <AssociationConnector Association="MassDataEducationModel.FK_ClassSubject_Class" ManuallyRouted="false" />
         <AssociationConnector Association="MassDataEducationModel.FK_Result_Class" ManuallyRouted="false" />
+        <AssociationConnector Association="MassDataEducationModel.FK_Result_ClassExams" ManuallyRouted="false" />
         <AssociationConnector Association="MassDataEducationModel.FK_Section_Class" ManuallyRouted="false" />
         <AssociationConnector Association="MassDataEducationModel.FK_StudentAttendance_Class" ManuallyRouted="false" />
         <AssociationConnector Association="MassDataEducationModel.FK_StudentClass_Class" ManuallyRouted="false" />
+        <AssociationConnector Association="MassDataEducationModel.FK_ClassExams_ExamNames" ManuallyRouted="false" />
         <AssociationConnector Association="MassDataEducationModel.FK_ClassExams_Institute" ManuallyRouted="false" />
-        <AssociationConnector Association="MassDataEducationModel.FK_Result_ClassExams" ManuallyRouted="false" />
+        <AssociationConnector Association="MassDataEducationModel.FK_ClassSubject_Group" ManuallyRouted="false" />
         <AssociationConnector Association="MassDataEducationModel.FK_ClassSubject_Institute" ManuallyRouted="false" />
         <AssociationConnector Association="MassDataEducationModel.FK_Result_ClassSubject" ManuallyRouted="false" />
         <AssociationConnector Association="MassDataEducationModel.FK_SubjectBook_ClassSubject" ManuallyRouted="false" />
         <AssociationConnector Association="MassDataEducationModel.FK_TeacherClassSubject_ClassSubject" ManuallyRouted="false" />
         <AssociationConnector Association="MassDataEducationModel.FK_Person_Designation" ManuallyRouted="false" />
+        <AssociationConnector Association="MassDataEducationModel.FK_ExamNames_Institute" ManuallyRouted="false" />
         <AssociationConnector Association="MassDataEducationModel.FK_Person_Gender" ManuallyRouted="false" />
         <AssociationConnector Association="MassDataEducationModel.FK_Institute_Person" ManuallyRouted="false" />
         <AssociationConnector Association="MassDataEducationModel.FK_Person_Institute" ManuallyRouted="false" />
         <AssociationConnector Association="MassDataEducationModel.FK_Result_Institute" ManuallyRouted="false" />
+        <AssociationConnector Association="MassDataEducationModel.FK_Section_Institute" ManuallyRouted="false" />
+        <AssociationConnector Association="MassDataEducationModel.FK_StudentClass_Institute" ManuallyRouted="false" />
         <AssociationConnector Association="MassDataEducationModel.FK_TeacherClassSubject_Institute" ManuallyRouted="false" />
         <AssociationConnector Association="MassDataEducationModel.FK_LogData_Person" ManuallyRouted="false" />
         <AssociationConnector Association="MassDataEducationModel.FK_Person_Religion" ManuallyRouted="false" />
@@ -59,8 +66,7 @@
         <AssociationConnector Association="MassDataEducationModel.FK_StudentAttendance_Person" ManuallyRouted="false" />
         <AssociationConnector Association="MassDataEducationModel.FK_StudentClass_Person" ManuallyRouted="false" />
         <AssociationConnector Association="MassDataEducationModel.FK_TeacherClassSubject_Person" ManuallyRouted="false" />
-        <AssociationConnector Association="MassDataEducationModel.FK_dbo_ClassExamsModel_dbo_ExamNamesModel_ExamNamesID1" />
-        <AssociationConnector Association="MassDataEducationModel.FK_ClassExams_Class" />
+        <AssociationConnector Association="MassDataEducationModel.FK_StudentClass_Section" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

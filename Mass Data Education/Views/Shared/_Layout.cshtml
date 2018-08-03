@@ -143,10 +143,13 @@
                                 else if (person.Type == "Admin")
                                 {
                                     <li class="@Html.IsActive(actions: "Index,Create,Edit,Delete,Details", controllers: "AccountProfile")"><a href="@Url.Action("Index", "AccountProfile")"><i class="icon-users4"></i> <span>Accountants</span></a></li>
-                                    <li class="@Html.IsActive(actions: "Edit,Details", controllers: "Institutes")"><a href="@Url.Action("Details", "Institutes", new { Id = person.InstituteID })"><i class="icon-users4"></i> <span>Institute</span></a></li>
                                     <li class="@Html.IsActive(actions: "Index,Create,Edit,Delete,Details", controllers: "Classes")"><a href="@Url.Action("Index", "Classes")"><i class="icon-users4"></i> <span>Classes</span></a></li>
+                                    <li class="@Html.IsActive(actions: "Index,Create,Edit,Delete,Details", controllers: "ClassExams")"><a href="@Url.Action("Index", "ClassExams")"><i class="icon-users4"></i> <span>Class Exam </span></a></li>
+                                    <li class="@Html.IsActive(actions: "Index,Create,Edit,Delete,Details", controllers: "Groups")"><a href="@Url.Action("Index", "Groups")"><i class="icon-users4"></i> <span>Group</span></a></li>
+                                    <li class="@Html.IsActive(actions: "Edit,Details", controllers: "Institutes")"><a href="@Url.Action("Details", "Institutes", new { Id = person.InstituteID })"><i class="icon-users4"></i> <span>Institute</span></a></li>
+
                                     <li class="@Html.IsActive(actions: "Index,Create,Edit,Delete,Details", controllers: "ClassSubjects")"><a href="@Url.Action("Index", "ClassSubjects")"><i class="icon-users4"></i> <span>Subjects</span></a></li>
-                                    <li class="@Html.IsActive(actions: "Index,Create,Edit,Delete,Details", controllers: "ClassExams")"><a href="@Url.Action("Index", "ClassExams")"><i class="icon-users4"></i> <span>Exams</span></a></li>
+
                                     @*<li class="@Html.IsActive(actions: "Index,Create,Edit,Delete,Details", controllers: "Sections")"><a href="@Url.Action("Index", "Sections")"><i class="icon-users4"></i> <span>Sections</span></a></li>*@
                                 }
                                 else

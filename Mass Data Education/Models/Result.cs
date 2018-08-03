@@ -26,7 +26,7 @@ namespace Mass_Data_Education.Models
         public bool Deleted { get; set; }
     
         public virtual Class Class { get; set; }
-        public virtual ClassExams ClassExams { get; set; }
+        public virtual Class Class1 { get; set; }
         public virtual ClassSubject ClassSubject { get; set; }
         public virtual Institute Institute { get; set; }
         public virtual Person Person { get; set; }
